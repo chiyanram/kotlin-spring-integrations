@@ -1,0 +1,10 @@
+server:
+  port: 9103
+spring:
+  application:
+    name: 'spring-kotlin-routers'
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -1,0 +1,13 @@
+server:
+  port: 9101
+
+spring:
+  application:
+    name: 'spring-kotlin-r2dbc'
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: 'jdbc:postgresql://localhost:5432/r2dbc'
+    username: 'postgres'
+    password: 'postgres'
+  flyway:
+    validate-on-migrate: true

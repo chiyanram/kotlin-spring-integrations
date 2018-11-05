@@ -1,0 +1,14 @@
+server:
+  port: 9100
+spring:
+  application:
+    name: spring-kotlin
+  security:
+    user:
+      password: user
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
