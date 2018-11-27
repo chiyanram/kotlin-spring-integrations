@@ -1,0 +1,5 @@
+server:
+  port: 9107
+spring:
+  application:
+    name: 'spring-session'
