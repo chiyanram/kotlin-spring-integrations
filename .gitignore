@@ -25,8 +25,4 @@
 /nbdist/
 /.nb-gradle/
 
-/spring-kotlin-router-handlers/build/
-/spring-kotlin-migration/build
-/spring-kotlin-r2dbc/build
-/spring-kotlin-redis/build
-/spring-kotlin-routers/build
+**/build
