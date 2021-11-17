@@ -11,16 +11,13 @@ class SessionController {
 
     @PostMapping("/session")
     fun put(session: WebSession): Mono<String> {
-
         session.attributes.computeIfAbsent("name") { "Ram" }
-
         return Mono.just("Value updated in session!")
     }
 
 
     @GetMapping("/session")
     fun get(session: WebSession): Mono<String> {
-
         return Mono.just(session.getAttribute<String>("name")!!)
     }
 

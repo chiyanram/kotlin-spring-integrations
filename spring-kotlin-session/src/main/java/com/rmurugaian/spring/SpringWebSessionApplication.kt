@@ -9,6 +9,4 @@ class SpringWebSessionApplication
 
 fun main(args: Array<String>) {
     runApplication<SpringWebSessionApplication>(*args)
-
-
 }
